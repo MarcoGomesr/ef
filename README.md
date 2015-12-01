@@ -1,6 +1,3 @@
-# ef
-EF TEST
-
-# do npm install
-
+# EF TEST
+npm install
 open the build folder
