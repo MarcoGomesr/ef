@@ -1,0 +1,76 @@
+
+@media(max-width:767px){
+	blockquote{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.address{
+		text-align: center;
+		border-bottom: 1px solid #312e2a;
+	}
+}
+
+
+
+@media (min-width: 992px) {
+
+.post	img{
+		width: 100%;
+	}
+
+	.carousel-control.left{
+	left: 3% !important;
+	}
+
+	.carousel-control.right{
+		right: 3% !important;
+	}
+}
+
+@media (max-width: 430px) {
+
+	header .logo{
+		margin:0;
+		padding:0;
+	}
+
+	.content{
+		margin: 0px 0px;
+	}
+	.no-padding{
+		padding:0
+	}
+	
+	aside{
+		padding-top: 20px;
+    	padding-left: 25px !important;
+	}
+
+	.address + div{
+		text-align: center;
+	}
+
+	footer .bottom{
+    	text-align: center;
+    	padding: 29px 0;
+    	font-size: 8pt;
+		margin: 0 15px;
+	}
+
+	footer{
+		.content{
+			margin: 0px 15px;
+		}
+
+		.conect{
+			margin: 25px 0;
+		}
+	}
+
+	footer .band .text-center span:nth-child(2){
+    	font-size: 20pt;
+    	font-weight: bold;
+	}
+}
+

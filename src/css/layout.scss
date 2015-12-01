@@ -1,0 +1,187 @@
+/*==========  =social  ==========*/
+
+.social{
+    padding: 0;    
+    list-style: none;
+    position: relative;
+    top: 10px;
+	li{
+		display: inline;
+		margin-right: 5px;
+	}
+}
+
+.socialicon-fb, .socialicon-map, .socialicon-tw, .socialicon-play{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+}
+
+.socialicon-fb{
+background: url('../img/fb.png') no-repeat
+}
+
+.socialicon-map{
+background: url('../img/map.png') no-repeat
+
+}
+
+.socialicon-tw{
+
+background: url('../img/tw.png') no-repeat
+}
+
+.socialicon-play{
+background: url('../img/play.png') no-repeat
+
+}
+
+header{
+	margin: 27px 0;
+		.logo{
+    		margin-top: 29px;
+    		margin-bottom: 33px;
+		}
+
+		.devTitle{
+		font-size: 24pt;
+
+		font-weight: bold;
+		font-style: italic;
+		width: 69px;
+		position: absolute;
+		top: 134px;
+		right: 835px;
+
+		}
+
+		.devTest{
+			position: absolute;
+			left: -2px;
+			top: 30px;
+		}
+}
+
+
+/*-----  End of header  ------*/
+
+
+
+/*=============================
+=            =post            =
+=============================*/
+
+
+aside{
+	padding-top: 72px;
+	padding-left: 46px !important;
+		
+		h5:first-child{
+			margin-bottom: 40px			
+		}
+
+		h5 + h5{
+			margin-bottom: 0;
+		}
+
+
+		h2{
+			margin: 4px 0 20px 0;
+			font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+		}
+		strong{
+			font-size: 10pt
+		}
+}
+
+
+/*-----  End of post  ------*/
+
+
+
+
+
+/*================================
+=            =content            =
+================================*/
+
+.content h2{
+
+margin-top: 97px;
+margin-bottom: 43px;
+
+}
+
+.post{
+	margin-top: -27px;
+}
+/*-----  End of =content  ------*/
+
+
+
+
+
+
+/*==============================
+=            =footer            =
+==============================*/
+footer{
+	background: $black;
+		color: $lgBrown;
+	.band{
+		margin-top: 24px;
+		background: #f1eae1;
+		height: 125px;
+		line-height: 125px;
+		margin-bottom: 30px;
+		color: black;
+		.text-center{
+
+			.icon-phone{
+				background: url('../img/phone.png') no-repeat;
+				width: 46px;
+				height: 46px;
+				display: inline-block;
+				position: relative;
+				top: 10px;
+				right: 11px;
+			}
+			span:nth-child(2){
+				font-size: 24pt;		
+				text-align: center;
+			}
+		}
+
+	}
+	
+	
+	h4{
+		color: $white;
+		font-size: 15px;
+	}
+	address{
+		font-style: italic;
+		font-family: georgia;
+	
+	}
+	small{
+		color: $white;
+		&:before {
+       content: "";
+				background: url("../img/UK-flag.png") no-repeat;
+				width: 25px;
+				height: 10px;
+				display: inline-block;
+    }
+	}	
+
+	.bottom{
+		text-align: center;
+	    font-size: 9pt;
+	    border-top: 1px solid #312e2a;
+	    padding: 45px 0;
+	    margin: 0;
+	}
+}
+
+

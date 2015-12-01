@@ -1,0 +1,81 @@
+/*===============================
+=            =slider            =
+===============================*/
+
+
+.icon{
+	width: 26px;
+	height: 58px;
+	display: block;
+	top: -265px;
+	&:focus {
+	  outline: none;
+	}	
+}
+
+.icon-left{
+	background: url('../img/left-slider-arrow.png') no-repeat;
+    position: absolute;
+    left: -47px;
+}
+
+.icon-right{	
+	background: url('../img/right-slider-arrow.png') no-repeat;	
+    position: absolute;
+    left: 1212px;
+}
+
+
+
+#slider-nav { 
+	display: none; 
+	margin-top: 1em;
+	position: absolute;
+}
+
+#slider-nav button {
+	border: 0;
+}
+
+.slider {
+	width: inherit;	
+	overflow: scroll;
+	
+	margin-left: 15px;
+
+	figure{
+		position: relative;
+		picture img{
+			width: 1170px;
+    		height: 459px;
+		}
+	}
+	figcaption{
+	    position: absolute;
+	    left: 20%;
+	    top: 173px;
+	    color: white;
+	    font-size: 27pt;
+	    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	    text-transform: uppercase;
+	}
+
+	ul {
+		width: 10000px;
+		list-style: none;
+		padding: 0;
+
+		li {
+			float: left;
+		}
+	}
+
+
+
+}
+
+
+
+
+
+

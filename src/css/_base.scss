@@ -1,0 +1,55 @@
+
+body{
+	background: white;
+}
+
+
+.beige{
+	color: $beige
+}
+
+h2{
+	font-size: 23px;
+}
+
+h5{
+	@extend .beige;
+}
+
+.hr{
+	width: 48px;
+	margin-left: 2px;
+}
+
+p{
+	font-family: 'Arial';
+	font-size: 13pt;
+	margin: 0 0 25px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.icon-read{
+	width: 6px;
+	height: 9px;
+	background: url('../img/readarrow.png') no-repeat;
+	display: inline-block;	
+	margin: 0 10px;
+}
+
+
+
+blockquote{
+	border: none;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-style: italic;
+	padding: 44px 0;
+	font-size: 23pt;
+	width: 72%;
+	margin-left: 94px;
+	font-family: georgia;
+	line-height: 34px;
+}
